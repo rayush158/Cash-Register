@@ -1,8 +1,74 @@
-.container{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+:root {
+  --primary-color: #064e3b;
+  --primary-text-color: #111827;
+  --faint-green: #a7f3d0;
+}
+
+body {
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-left: 350px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+  }
+  .container {
     display: flex;
     flex-direction: column;
     width: 50vw;
+  }
+  
+  h1,
+p {
+  color: white;
 }
-body{
-    background-color: ;
+
+#bill-amount {
+    margin: 1rem;
+    margin-left: 150px;
+    border-radius: 0.5rem;
+  }
+  #cash-given {
+    margin: 1rem;
+    margin-left: 148px;
+    border-radius: 0.5rem;
+  }
+  input {
+    width: 50%;
+    padding: 1rem;
+    height: 20px;
+    display: block;
+  }
+  #check-button {
+    margin: 1rem;
+    width: 20%;
+    margin-left: 40%;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+  }
+th,
+td {
+  word-wrap: break-word;
+}
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+
+
+
+
+
+#output table,
+th,
+td {
+  padding: 0.2rem;
+  color: var(--dark-green);
+  background-color: var(--faint-green);
+  border: 2px solid var(--dark-green);
+  border-collapse: collapse;
 }
