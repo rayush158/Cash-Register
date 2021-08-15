@@ -43,7 +43,7 @@ h1 {
   text-align: center;
   border-radius: 0.8rem;
   width: 6rem;
-  border: solid rgb(236, 86, 27) 3px;
+  border: solid whitesmoke 2px;
   font-size: large;
   background-color: #6d28d9;
   color: black;
@@ -56,13 +56,13 @@ p{
   padding: .2rem .2rem;
 }
 table, th, td{
-  border: solid black 2px;
+  border: solid black 1px;
   border-collapse: collapse;
-  padding: 3px ;
-  margin: 15px 15px;
+  padding: 2px ;
+  margin: 10px 10px;
   background-color: #a7f3d0;
-  height: 3vh;
-  width: 80vh;
+  height: 2vh;
+  width: 60vh;
   text-align: center;
 }
 .no-of-notes{
