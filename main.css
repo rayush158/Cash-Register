@@ -71,5 +71,5 @@ table, th, td{
 th{
   min-width: 150px;
 }
- table{ margin-left:35vh;
+ table{ margin:auto;
  }
