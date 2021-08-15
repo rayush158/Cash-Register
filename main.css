@@ -1,74 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
-  --primary-color: #064e3b;
+  --primary-color: #629adb;
   --primary-text-color: #111827;
   --faint-green: #a7f3d0;
 }
 
 body {
-    background-color: var(--primary-color);
-    text-align: center;
-    margin-left: 350px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 110%;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-  }
-  
-  h1,
-p {
-  color: white;
-}
-
-#bill-amount {
-    margin: 1rem;
-    margin-left: 150px;
-    border-radius: 0.5rem;
-  }
-  #cash-given {
-    margin: 1rem;
-    margin-left: 148px;
-    border-radius: 0.5rem;
-  }
-  input {
-    width: 50%;
-    padding: 1rem;
-    height: 20px;
-    display: block;
-  }
-  #check-button {
-    margin: 1rem;
-    width: 20%;
-    margin-left: 40%;
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-  }
-th,
-td {
-  word-wrap: break-word;
-}
-th {
-  display: table-cell;
-  vertical-align: inherit;
-  font-weight: bold;
-  text-align: -internal-center;
-}
-
-
-
-
-
-
-#output table,
-th,
-td {
-  padding: 0.2rem;
-  color: var(--dark-green);
+  text-align: center;
+  max-width: 1300px;
+  margin: 0rem auto;
   background-color: var(--faint-green);
-  border: 2px solid var(--dark-green);
-  border-collapse: collapse;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
 }
+h1 {
+  font-size: 2.1rem;
+  color: #1f2937;
+  padding: 2rem 1rem;
+}
+ #main{border-radius: 15px;
+  padding: 2rem 2rem;
+  margin: 5rem auto;
+  background-color: #a78bfa;
+  max-width: 1000px;
+  font-size: 1.5rem;}
+
+  input{
+    margin: .5rem auto;
+  display: block;
+  height: 2rem;
+  text-align: center;
+  border-radius: 0.8rem;
+  width: 10rem;
+  border: solid rgb(24, 93, 184) 2.5px;
+  font-size: large;
+  }
+   
+  button{
+    margin: 1rem auto;
+  display: block;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 0.8rem;
+  width: 6rem;
+  border: solid rgb(236, 86, 27) 3px;
+  font-size: large;
+  background-color: #6d28d9;
+  color: black;
+  font-weight: bold;
+  }
+
+p{
+  font-size: 1.7rem;
+  font-weight:bold;
+  padding: .2rem .2rem;
+}
+table, th, td{
+  border: solid black 2px;
+  border-collapse: collapse;
+  padding: 3px ;
+  margin: 15px 15px;
+  background-color: #a7f3d0;
+  height: 3vh;
+  width: 80vh;
+  text-align: center;
+}
+.no-of-notes{
+  background-color: white;
+}
+th{
+  min-width: 150px;
+}
+ table{ margin-left:35vh;
+ }
