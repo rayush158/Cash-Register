@@ -6,6 +6,4 @@ By this App you calculate how many notes of rupess you return to customer after 
 
 you have to enter given cash and bill amount for use this app 
 
-* Language - Html , Css, JavaScript
-
     [live link](https://mycashregisterpro.netlify.app/)
